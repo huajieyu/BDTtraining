@@ -1,1 +1,9 @@
-This is a repository for BDT training of Event Selection
+This is a repository for BDT training of Event Selectioni
+echo "# BDTtraining" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/huajieyu/BDTtraining.git
+git push -u origin main
+
