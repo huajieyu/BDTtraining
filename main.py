@@ -1,5 +1,5 @@
 #import pandas as pd
-
+from packages import *
 from sklearn.preprocessing import MinMaxScaler
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import classification_report, confusion_matrix
@@ -29,4 +29,6 @@ def dfstart():
 		canvas.Print(plotFileName+"]")
 
 if __name__=="__main__":
-	dfstart();
+	dfstart()
+	module1.startp()
+
